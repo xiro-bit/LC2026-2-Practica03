@@ -1,0 +1,62 @@
+Test suite Practica03-test: RUNNING...
+
+Tests Forma Normal Negativa
+  Fórmula Tt [✔]
+  Fórmula Cr [✔]
+  Fórmula Truco [✔]
+Tests Forma Normal Conjuntiva
+  Fórmula Tt [✔]
+  Fórmula Cr [✔]
+  Fórmula Truco [✔]
+Tests clausulas
+  Clausulas del Tt [✔]
+  Clausulas del Cr [✔]
+  Clausulas del Truco [✔]
+Tests resolucion
+  Clausulas del Tt [✔]
+  Clausulas del Cr [✔]
+  Clausulas del truco [✔]
+Tests hayResolvente
+  Clausulas del Tt [✔]
+  Clausulas del Cr [✔]
+  Clausulas del truco [✔]
+Tests saturacion
+  Fórmula Tt [✘]
+  Fórmula Cr [✘]
+  Fórmula Truco [✘]
+
+Failures:
+
+  src/Practica03.hs:140:14: 
+  1) Tests saturacion Fórmula Tt
+       uncaught exception: ErrorCall
+       Prelude.undefined
+       CallStack (from HasCallStack):
+         undefined, called at src/Practica03.hs:140:14 in Practica03-0.1.0.0-inplace:Practica03
+
+  To rerun use: --match "/Tests saturacion/Fórmula Tt/" --seed 380425913
+
+  src/Practica03.hs:140:14: 
+  2) Tests saturacion Fórmula Cr
+       uncaught exception: ErrorCall
+       Prelude.undefined
+       CallStack (from HasCallStack):
+         undefined, called at src/Practica03.hs:140:14 in Practica03-0.1.0.0-inplace:Practica03
+
+  To rerun use: --match "/Tests saturacion/Fórmula Cr/" --seed 380425913
+
+  src/Practica03.hs:140:14: 
+  3) Tests saturacion Fórmula Truco
+       uncaught exception: ErrorCall
+       Prelude.undefined
+       CallStack (from HasCallStack):
+         undefined, called at src/Practica03.hs:140:14 in Practica03-0.1.0.0-inplace:Practica03
+
+  To rerun use: --match "/Tests saturacion/Fórmula Truco/" --seed 380425913
+
+Randomized with seed 380425913
+
+Finished in 0.0036 seconds
+18 examples, 3 failures
+Test suite Practica03-test: FAIL
+Test suite logged to: /home/xiro/Documentos/2026/4to semestre/LoComp/haskellPractice/LC2026-2-Practica03/dist-newstyle/build/x86_64-linux/ghc-9.4.8/Practica03-0.1.0.0/t/Practica03-test/test/Practica03-0.1.0.0-Practica03-test.log

@@ -67,7 +67,7 @@ library
     -- other-extensions:
 
     -- Other library packages from which modules are imported.
-    build-depends:    base ^>=4.21.0.0
+    build-depends:    base ^>=4.17.2.1
 
     -- Directories containing source files.
     hs-source-dirs:   src
@@ -99,7 +99,7 @@ test-suite Practica03-test
 
     -- Test dependencies.
     build-depends:
-        base ^>=4.21.0.0,
+        base ^>=4.17.2.1,
         hspec,
-        deepseq ^>=1.5.1.0,
+        deepseq ^>=1.4.8.0,
         Practica03
